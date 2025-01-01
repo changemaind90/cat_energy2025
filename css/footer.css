@@ -1,0 +1,16 @@
+footer {
+  width: 1440px;
+  height: 149px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 57px;
+  margin-left: 110px;
+}
+
+.footer__menu {
+  display: flex;
+  gap: 25px;
+}

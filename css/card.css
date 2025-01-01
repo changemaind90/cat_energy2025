@@ -1,0 +1,39 @@
+.how {
+  margin-left: 110px;
+  width: 1330px;
+  margin-bottom: 11px;
+}
+
+.how__cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.how__title {
+  font-size: 64px;
+  margin-bottom: 72px;
+}
+
+.how__img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 31px;
+}
+
+.card {
+  width: 230px;
+  height: 280px;
+  align-items: left;
+}
+
+.card__number {
+  position: absolute;
+  z-index: -2;
+  font-weight: 400;
+  font-size: 280px;
+  line-height: 280px;
+  text-align: right;
+  opacity: 5%;
+  transform: translate(100px, -250px);
+}

@@ -1,0 +1,48 @@
+.wrapper {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  max-width: 1440px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.img__rb {
+  width: 720px;
+  height: 696px;
+  position: absolute;
+  z-index: -3;
+  margin-left: 720px;
+  transform: translateY(-57px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+  margin-bottom: 91px;
+}
+
+.logo {
+  margin-left: 110px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.menu__list-item {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29.64px;
+  text-transform: uppercase;
+}
+
+.menu__list-item:last-child {
+  margin-right: 110px;
+}
