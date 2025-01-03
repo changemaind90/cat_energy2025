@@ -89,14 +89,8 @@
 }
 
 .live__content-switch {
-  width: 690px;
-}
-
-/*
- Slider cat как то так
-*/
-
-.live__content-switch {
+  min-width: 690px;
+  min-height: 539px;
   position: relative;
 }
 

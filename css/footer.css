@@ -1,16 +1,26 @@
 footer {
-  width: 1440px;
-  height: 149px;
+  min-width: 1440px;
 }
 
 .footer__content {
   display: flex;
   justify-content: space-between;
+  /* min-width: 1220px; */
+  width: 1220px;
   padding-top: 57px;
+  padding-bottom: 57px;
   margin-left: 110px;
 }
 
-.footer__menu {
+.footer__menu-list {
   display: flex;
   gap: 25px;
+}
+
+.footer__text {
+  margin-right: 22px;
+}
+
+.footer__logo-link {
+  display: flex;
 }
