@@ -1,7 +1,4 @@
 .wrapper {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
   max-width: 1440px;
   position: relative;
   margin: 0 auto;
@@ -41,6 +38,7 @@
   font-size: 20px;
   line-height: 29.64px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .menu__list-item:last-child {
