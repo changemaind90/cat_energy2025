@@ -16,7 +16,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 55px;
+  padding-top: 55px;
+  padding-right: 110px;
   margin-bottom: 91px;
 }
 
@@ -39,8 +40,4 @@
   line-height: 29.64px;
   text-transform: uppercase;
   color: #fff;
-}
-
-.menu__list-item:last-child {
-  margin-right: 110px;
 }

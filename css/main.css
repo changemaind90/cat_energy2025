@@ -31,8 +31,8 @@
   position: relative;
 }
 
-button::hover {
-  transform: scale(1.5rem);
+button:hover {
+  transform: scale(1.5);
 }
 
 .cup {

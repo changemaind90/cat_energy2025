@@ -8,10 +8,15 @@ a, a:hover {
   text-decoration: none;
 }
 
+a {
+  color: #fff;
+}
+
 body {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   color: #000000;
+  line-height: 1.5;
 }
 
 ul {
