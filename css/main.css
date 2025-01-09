@@ -1,5 +1,6 @@
 .welcome {
-  height: 562px;
+  max-height: 429px;
+  margin-bottom: 82px;
 }
 
 .welcome__h1 {
@@ -19,26 +20,31 @@
 }
 
 .welcome__btn {
-  width: 244px;
-  height: 54px;
+  min-width: 244px;
+  min-height: 54px;
   margin-left: 190px;
   border: 0;
   text-transform: uppercase;
-  background: #68B738;
+  background: #7edc43;
   color: #fff;
-  cursor: pointer;
-  z-index: 10;
+  cursor: pointer;/* 
+  z-index: 10; */
   position: relative;
 }
 
+button {
+  transition: transform 0.5s ease;
+}
+
 button:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
+  
 }
 
 .cup {
   display: block;
-  width: 552px;
-  height: 499px;
-  transform: translate(560px, -320px);
-  z-index: -2;
+  min-width: 552px;
+  min-height: 499px;
+  transform: translate(560px, -378px);/* 
+  z-index: -2; */
 }

@@ -11,6 +11,10 @@ footer {
   margin-left: 110px;
 }
 
+.footer__title {
+  color: black;
+}
+
 .footer__menu-list {
   display: flex;
   gap: 25px;
